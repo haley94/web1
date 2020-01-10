@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hollys</title>
+    <link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+    
+</head>
+<body>
+   
+    <div id="wrap">
+        <div id="product_pop">
+            <div class="pop_box">
+                <button id="bt_close"></button>
+                <div class="pop_list">
+                </div> 
+                    <div class="button_wrap">
+                        <button id="bt_left" onclick="plus(-1)"></button>
+                        <button id="bt_right" onclick="plus(1)"></button>
+                    </div>
+                    <div id="silderf_box"> 
+                        <div class="sliderf_wrap">
+                            <div class="sliderf slider1 sf"> 
+                                <ul>
+                                    <li class="img">
+                                        <img src="imgs/pop_risretto.png" alt="">
+                                    </li>
+                                    <li class="text">              
+                                        <div class="text_wrap">
+                                            <span>리스트레또 딜라이트</span>
+                                            <span>Ristretto Delight</span>
+                                            <span>달콤한 연유와 고소한 할리스 원두, 크리미한 바디가<br>절묘하게 어우러진 시즌 스페셜 메뉴</span>
+                                            <span>제품영양정보 (1회 제공량 / Regular / 354ml 기준)</span>
+                                        </div>  
+                                        <table>
+                                                <tr>
+                                                <th></th>
+                                                <th>칼로리</th>
+                                                <th>당류</th>
+                                                <th>단백질</th>
+                                                <th>포화지방</th>
+                                                <th>나트륨</th>
+                                                <th>카페인</th>
+                                            </tr>
+                                            <tr>
+                                                <td>HOT</td>
+                                                <td>303kcal</td>
+                                                <td>31g</td>
+                                                <td>12g <br>22%</td>
+                                                <td>11g <br>71%</td>
+                                                <td>199mg <br>10%</td>
+                                                <td>129mg</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ICE</td>
+                                                <td>237kcal</td>
+                                                <td>24g</td>
+                                                <td>7g<br>13%</td>
+                                                <td>9g<br>60%</td>
+                                                <td>121mg<br>6%</td>
+                                                <td>129mg</td>
+                                            </tr>
+                                        </table>        
+                                    </li>
+                                </ul> 
+                            </div>
+                            <div class="sliderf slider2 sf">
+                                <ul>
+                                    <li class="img">
+                                        <img src="imgs/pop_tiramisu.png" alt="">
+                                    </li>
+                                    <li class="text">              
+                                        <div class="text_wrap">
+                                            <span>티라미스 크림라떼</span>
+                                            <span>Tiramisu Cream Latte</span>
+                                            <span>진한 감촉의 마스카폰 치즈와 부드러운 향미의 콜드브루 크림라떼</span>				
+                                            <span>제품영양정보 (1회 제공량 / Regular / 354ml 기준)</span>
+                                        </div>  
+                                        <table>
+                                            <tr>
+                                                <th></th>
+                                                <th>칼로리</th>
+                                                <th>당류</th>
+                                                <th>단백질</th>
+                                                <th>포화지방</th>
+                                                <th>나트륨</th>
+                                                <th>카페인</th>
+                                            </tr>
+                                            <tr>
+                                                <td>ICE</td>
+                                                <td>283kcal</td>
+                                                <td>14g</td>
+                                                <td>5g<br>10%</td>
+                                                <td>13g<br>87%</td>
+                                                <td>123mg<br>6%</td>
+                                                <td>148mg</td>
+                                            </tr>
+                                        </table>
+                                    </li>
+                                </ul>                         
+                            </div>
+                            <div class="sliderf slider3 sf">
+                                <ul>
+                                    <li class="img">
+                                        <img src="imgs/pop_milktea.png" alt="">
+                                    </li>
+                                    <li class="text">              
+                                        <div class="text_wrap">
+                                            <span>밀크티 크림라떼</span>
+                                            <span>Milk Tea Cream Latte</span>
+                                            <span>콜드브루 라떼에 향긋한 밀크티크림을 얹어 더욱 부드럽게 <br> 홍차와 커피의 풍미를 함께 즐길 수 있는 밀크티 크림라떼</span>
+                                            <span>제품영양정보 (1회 제공량 / Regular / 354ml 기준)</span>
+                                        </div>  
+                                        <table>
+                                            <tr>
+                                                <th></th>
+                                                <th>칼로리</th>
+                                                <th>당류</th>
+                                                <th>단백질</th>
+                                                <th>포화지방</th>
+                                                <th>나트륨</th>
+                                                <th>카페인</th>
+                                            </tr>
+                                            <tr>
+                                                <td>ICE</td>
+                                                <td>257kcal</td>
+                                                <td>18g</td>
+                                                <td>5g<br>9%</td>
+                                                <td>12g<br>77%%</td>
+                                                <td>84mg<br>4%</td>
+                                                <td>181mg</td>
+                                            </tr>
+                                        </table>
+                                    </li>
+                                </ul>                       
+                            </div>
+                            <div class="sliderf slider4 sf">
+                                <ul>
+                                    <li class="img">
+                                        <img src="imgs/pop_tiramisu.png" alt="">
+                                    </li>
+                                    <li class="text">              
+                                        <div class="text_wrap">
+                                            <span>그린티 크림라떼</span>
+                                            <span>Green Tea Cream Latte</span>
+                                            <span>콜드브루 라떼에 달콤 쌉싸름한 그린티크림을 얹어 더욱 부드럽게 <br> 녹차와 커피의 풍미를 함께 즐길 수 있는 그린티 크림라떼</span>
+                                            <span>제품영양정보 (1회 제공량 / Regular / 354ml 기준)</span>
+                                        </div>  
+                                        <table>
+                                            <tr>
+                                                <th></th>
+                                                <th>칼로리</th>
+                                                <th>당류</th>
+                                                <th>단백질</th>
+                                                <th>포화지방</th>
+                                                <th>나트륨</th>
+                                                <th>카페인</th>
+                                            </tr>
+                                            <tr>
+                                                <td>ICE</td>
+                                                <td>258kcal</td>
+                                                <td>17g</td>
+                                                <td>5g<br>9%</td>
+                                                <td>12g<br>77%</td>
+                                                <td>83mg<br>4%</td>
+                                                <td>171mg</td>
+                                            </tr>
+                                        </table>
+                                    </li>
+                                </ul>                       
+                            </div>
+                            <div class="sliderf slider5 sf">
+                                <ul>
+                                    <li class="img">
+                                        <img src="imgs/pop_sweet.png" alt="">
+                                    </li>
+                                    <li class="text">              
+                                        <div class="text_wrap">
+                                            <span>스위트 크림라떼</span>
+                                            <span>Sweet Cream Latte</span>
+                                            <span>달콤한 시럽이 들어간 콜드브루 라떼에 밀크크림을 얹어 더욱 부드럽고 <br> 달콤하게 즐길 수 있는 스위트 크림라떼</span>
+                                            <span>제품영양정보 (1회 제공량 / Regular / 354ml 기준)</span>
+                                        </div>  
+                                        <table>
+                                            <tr>
+                                                <th></th>
+                                                <th>칼로리</th>
+                                                <th>당류</th>
+                                                <th>단백질</th>
+                                                <th>포화지방</th>
+                                                <th>나트륨</th>
+                                                <th>카페인</th>
+                                            </tr>
+                                            <tr>
+                                                <td>ICE</td>
+                                                <td>222kcal</td>
+                                                <td>10g</td>
+                                                <td>5g<br>9%</td>
+                                                <td>12g<br>77%</td>
+                                                <td>82mg<br>4%</td>
+                                                <td>148mg</td>
+                                            </tr>
+                                        </table>
+                                    </li>
+                                </ul>                       
+                            </div>
+                            <div class="sliderf slider6 sf"> 
+                                <ul>
+                                    <li class="img">
+                                        <img src="imgs/pop_coldbrewlatte.png" alt="">
+                                    </li>
+                                    <li class="text">              
+                                        <div class="text_wrap">
+                                            <span>콜드브루 라떼</span>
+                                            <span>Cold Brew Latte</span>
+                                            <span>콜드브루 커피의 풍부한 풍미와 우유의 고소함이 더해진 라떼</span>
+                                            <span>제품영양정보 (1회 제공량 / Regular / 354ml 기준)</span>
+                                        </div>  
+                                        <table>
+                                                <tr>
+                                                <th></th>
+                                                <th>칼로리</th>
+                                                <th>당류</th>
+                                                <th>단백질</th>
+                                                <th>포화지방</th>
+                                                <th>나트륨</th>
+                                                <th>카페인</th>
+                                            </tr>
+                                            <tr>
+                                                <td>ICE</td>
+                                                <td>125kcal</td>
+                                                <td>8g</td>
+                                                <td>5g<br>9%</td>
+                                                <td>4g<br>28%</td>
+                                                <td>85mg<br>4%</td>
+                                                <td>148mg</td>
+                                            </tr>
+                                        </table>        
+                                    </li>
+                                </ul> 
+                            </div>
+                            <div class="sliderf slider7 sf"> 
+                                <ul>
+                                    <li class="img">
+                                        <img src="imgs/pop_coldbrew.png" alt="">
+                                    </li>
+                                    <li class="text">              
+                                        <div class="text_wrap">
+                                            <span>콜드브루</span>
+                                            <span>Cold Brew</span>
+                                            <span>콜드브루 전용 블렌드를 상온의 물로 오랜시간 추출해 <br>달콤한 산미와 부드러운 바디감이 살아있는 커피</span>
+                                            <span>제품영양정보 (1회 제공량 / Regular / 354ml 기준)</span>
+                                        </div>  
+                                        <table>
+                                                <tr>
+                                                <th></th>
+                                                <th>칼로리</th>
+                                                <th>당류</th>
+                                                <th>단백질</th>
+                                                <th>포화지방</th>
+                                                <th>나트륨</th>
+                                                <th>카페인</th>
+                                            </tr>
+                                            <tr>
+                                                <td>ICE</td>
+                                                <td>15kcal</td>
+                                                <td>0g</td>
+                                                <td>0g<br>0%</td>
+                                                <td>0g<br>0%</td>
+                                                <td>0mg<br>0%</td>
+                                                <td>148mg</td>
+                                            </tr>
+                                        </table>        
+                                    </li>
+                                </ul> 
+                            </div>
+                            <div class="sliderf slider8 sf"> 
+                                <ul>
+                                    <li class="img">
+                                        <img src="imgs/pop_appogatto.png" alt="">
+                                    </li>
+                                    <li class="text">              
+                                        <div class="text_wrap">
+                                            <span>아포가토</span>
+                                            <span>Affogato</span>
+                                            <span>바닐라 아이스크림과 리스트레또 더블샷이 어우러져 부드럽고 진한 맛의 아포가토</span>
+                                            <span>제품영양정보 (1회 제공량 / Regular / 354ml 기준)</span>
+                                        </div>  
+                                        <table>
+                                                <tr>
+                                                <th></th>
+                                                <th>칼로리</th>
+                                                <th>당류</th>
+                                                <th>단백질</th>
+                                                <th>포화지방</th>
+                                                <th>나트륨</th>
+                                                <th>카페인</th>
+                                            </tr>
+                                            <tr>
+                                                <td>ICE</td>
+                                                <td>183kcal</td>
+                                                <td>12g</td>
+                                                <td>4g<br>7%</td>
+                                                <td>6g<br>42%</td>
+                                                <td>36mg<br>2%</td>
+                                                <td>129mg</td>
+                                            </tr>
+                                        </table>        
+                                    </li>
+                                </ul> 
+                            </div>
+                            <div class="sliderf slider9 sf"> 
+                                <ul>
+                                    <li class="img">
+                                        <img src="imgs/pop_belsian.png" alt="">
+                                    </li>
+                                    <li class="text">              
+                                        <div class="text_wrap">
+                                            <span>리얼 벨지안 카페모카</span>
+                                            <span>Real Belgian Mocha</span>
+                                            <span>달콤한 연유와 고소한 할리스 원두, 크리미한 바디가<br>절묘하게 어우러진 시즌 스페셜 메뉴</span>
+                                            <span>제품영양정보 (1회 제공량 / Regular / 354ml 기준)</span>
+                                        </div>  
+                                        <table>
+                                                <tr>
+                                                <th></th>
+                                                <th>칼로리</th>
+                                                <th>당류</th>
+                                                <th>단백질</th>
+                                                <th>포화지방</th>
+                                                <th>나트륨</th>
+                                                <th>카페인</th>
+                                            </tr>
+                                            <tr>
+                                                <td>HOT</td>
+                                                <td>508kcal</td>
+                                                <td>35g</td>
+                                                <td>11g<br>20%</td>
+                                                <td>20g<br>134%</td>
+                                                <td>100mg<br>5%</td>
+                                                <td>193mg</td>
+                                            </tr>
+                                        </table>        
+                                    </li>
+                                </ul> 
+                            </div>
+                            <div class="sliderf slider10 sf"> 
+                                <ul>
+                                    <li class="img">
+                                        <img src="imgs/pop_banila.png" alt="">
+                                    </li>
+                                    <li class="text">              
+                                        <div class="text_wrap">
+                                            <span>바닐라 딜라이트</span>
+                                            <span>Vanilla Delight</span>
+                                            <span>카페라떼에 바닐라빈으로 만든 바닐라 파우더를 더해 <br>더욱 풍부하고 감미로운 할리스만의 바닐라라떼</span>
+                                            <span>제품영양정보 (1회 제공량 / Regular / 354ml 기준)</span>
+                                        </div>  
+                                        <table>
+                                                <tr>
+                                                <th></th>
+                                                <th>칼로리</th>
+                                                <th>당류</th>
+                                                <th>단백질</th>
+                                                <th>포화지방</th>
+                                                <th>나트륨</th>
+                                                <th>카페인</th>
+                                            </tr>
+                                            <tr>
+                                                <td>HOT</td>
+                                                <td>274kcal</td>
+                                                <td>31g</td>
+                                                <td>11g <br>19%</td>
+                                                <td>8g <br>55%</td>
+                                                <td>234mg <br>12%</td>
+                                                <td>93mg</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ICE</td>
+                                                <td>219kcal</td>
+                                                <td>25g</td>
+                                                <td>7g<br>46%</td>
+                                                <td>7g<br>46%</td>
+                                                <td>169mg<br>8%</td>
+                                                <td>93mg</td>
+                                            </tr>
+                                        </table>        
+                                    </li>
+                                </ul> 
+                            </div>
+                            <div class="sliderf slider11 sf"> 
+                                <ul>
+                                    <li class="img">
+                                        <img src="imgs/pop_caramel.png" alt="">
+                                    </li>
+                                    <li class="text">              
+                                        <div class="text_wrap">
+                                            <span>카라멜 마키아또</span>
+                                            <span>Caramel Macchiato</span>
+                                            <span>진한 에스프레소에 바닐라 시럽과 카라멜소스가 더해진 카라멜 커피음료의 대표</span>
+                                            <span>제품영양정보 (1회 제공량 / Regular / 354ml 기준)</span>
+                                        </div>  
+                                        <table>
+                                                <tr>
+                                                <th></th>
+                                                <th>칼로리</th>
+                                                <th>당류</th>
+                                                <th>단백질</th>
+                                                <th>포화지방</th>
+                                                <th>나트륨</th>
+                                                <th>카페인</th>
+                                            </tr>
+                                            <tr>
+                                                <td>HOT</td>
+                                                <td>246kcal</td>
+                                                <td>24g</td>
+                                                <td>8g <br>15%</td>
+                                                <td>7g <br>44%</td>
+                                                <td>136mg <br>7%</td>
+                                                <td>152mg</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ICE</td>
+                                                <td>174kcal</td>
+                                                <td>20g</td>
+                                                <td>5g<br>9%</td>
+                                                <td>4g<br>26%</td>
+                                                <td>81mg<br>4%</td>
+                                                <td>152mg</td>
+                                            </tr>
+                                        </table>        
+                                    </li>
+                                </ul> 
+                            </div>
+                            <div class="sliderf slider12 sf"> 
+                                <ul>
+                                    <li class="img">
+                                        <img src="imgs/pop_caffemocha.png" alt="">
+                                    </li>
+                                    <li class="text">              
+                                        <div class="text_wrap">
+                                            <span>카페모카</span>
+                                            <span>Caffe Mocha</span>
+                                            <span>진한 에스프레소와 우유, 달콤 쌉싸름한 초콜릿이 어우러진 커피</span>
+                                            <span>제품영양정보 (1회 제공량 / Regular / 354ml 기준)</span>
+                                        </div>  
+                                        <table>
+                                                <tr>
+                                                <th></th>
+                                                <th>칼로리</th>
+                                                <th>당류</th>
+                                                <th>단백질</th>
+                                                <th>포화지방</th>
+                                                <th>나트륨</th>
+                                                <th>카페인</th>
+                                            </tr>
+                                            <tr>
+                                                <td>HOT</td>
+                                                <td>332kcal</td>
+                                                <td>29g</td>
+                                                <td>9g <br>16%</td>
+                                                <td>14g <br>93%</td>
+                                                <td>142mg <br>7%</td>
+                                                <td>159mg</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ICE</td>
+                                                <td>287kcal</td>
+                                                <td>30g</td>
+                                                <td>6g<br>11%</td>
+                                                <td>11g<br>75%</td>
+                                                <td>92mg<br>5%</td>
+                                                <td>161mg</td>
+                                            </tr>
+                                        </table>        
+                                    </li>
+                                </ul> 
+                            </div>
+                            <div class="sliderf slider13 sf"> 
+                                <ul>
+                                    <li class="img">
+                                        <img src="imgs/pop_caffuchino.png" alt="">
+                                    </li>
+                                    <li class="text">              
+                                        <div class="text_wrap">
+                                            <span>카푸치노</span>
+                                            <span>Cappuccino</span>
+                                            <span>달콤한 연유와 고소한 할리스 원두, 크리미한 바디가<br>절묘하게 어우러진 시즌 스페셜 메뉴</span>
+                                            <span>제품영양정보 (1회 제공량 / Regular / 354ml 기준)</span>
+                                        </div>  
+                                        <table>
+                                                <tr>
+                                                <th></th>
+                                                <th>칼로리</th>
+                                                <th>당류</th>
+                                                <th>단백질</th>
+                                                <th>포화지방</th>
+                                                <th>나트륨</th>
+                                                <th>카페인</th>
+                                            </tr>
+                                            <tr>
+                                                <td>HOT</td>
+                                                <td>160kcal</td>
+                                                <td>10g</td>
+                                                <td>7g <br>14%</td>
+                                                <td>6g <br>39%</td>
+                                                <td>115mg <br>6%</td>
+                                                <td>152mg</td>
+                                            </tr>
+                                        </table>        
+                                    </li>
+                                </ul> 
+                            </div>
+                            <div class="sliderf slider14 sf"> 
+                                <ul>
+                                    <li class="img">
+                                        <img src="imgs/pop_cafferlatte.png" alt="">
+                                    </li>
+                                    <li class="text">              
+                                        <div class="text_wrap">
+                                            <span>카페라떼</span>
+                                            <span>Caffe Latte</span>
+                                            <span>진한 에스프레소에 우유를 넣어 풍부한 커피향을 부드럽게 즐길 수 있는 커피</span>
+                                            <span>제품영양정보 (1회 제공량 / Regular / 354ml 기준)</span>
+                                        </div>  
+                                        <table>
+                                                <tr>
+                                                <th></th>
+                                                <th>칼로리</th>
+                                                <th>당류</th>
+                                                <th>단백질</th>
+                                                <th>포화지방</th>
+                                                <th>나트륨</th>
+                                                <th>카페인</th>
+                                            </tr>
+                                            <tr>
+                                                <td>HOT</td>
+                                                <td>180kcal</td>
+                                                <td>12g</td>
+                                                <td>8g <br>15%</td>
+                                                <td>7g <br>44%</td>
+                                                <td>130mg <br>7%</td>
+                                                <td>152mg</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ICE</td>
+                                                <td>103kcal</td>
+                                                <td>6g</td>
+                                                <td>5g<br>9%</td>
+                                                <td>4g<br>24%</td>
+                                                <td>72mg<br>4%</td>
+                                                <td>152mg</td>
+                                            </tr>
+                                        </table>        
+                                    </li>
+                                </ul> 
+                            </div>
+                            <div class="sliderf slider15 sf"> 
+                                <ul>
+                                    <li class="img">
+                                        <img src="imgs/pop_americano.png" alt="">
+                                    </li>
+                                    <li class="text">              
+                                        <div class="text_wrap">
+                                            <span>아메리카노</span>
+                                            <span>Caffe Americano</span>
+                                            <span>진한 에스프레소의 맛과 향을 부드럽게 즐길 수 있는 아메리칸 스타일의 커피</span>
+                                            <span>제품영양정보 (1회 제공량 / Regular / 354ml 기준)</span>
+                                        </div>  
+                                        <table>
+                                                <tr>
+                                                <th></th>
+                                                <th>칼로리</th>
+                                                <th>당류</th>
+                                                <th>단백질</th>
+                                                <th>포화지방</th>
+                                                <th>나트륨</th>
+                                                <th>카페인</th>
+                                            </tr>
+                                            <tr>
+                                                <td>HOT</td>
+                                                <td>11kcal</td>
+                                                <td>0g</td>
+                                                <td>1g <br>1%</td>
+                                                <td>0g <br>0%</td>
+                                                <td>0mg <br>0%</td>
+                                                <td>152mg</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ICE</td>
+                                                <td>11kcal</td>
+                                                <td>0g</td>
+                                                <td>1g<br>1%</td>
+                                                <td>0g<br>0%</td>
+                                                <td>0mg<br>0%</td>
+                                                <td>152mg</td>
+                                            </tr>
+                                        </table>        
+                                    </li>
+                                </ul> 
+                            </div>
+                            <div class="sliderf slider16 sf"> 
+                                <ul>
+                                    <li class="img">
+                                        <img src="imgs/pop_espressom.png" alt="">
+                                    </li>
+                                    <li class="text">              
+                                        <div class="text_wrap">
+                                            <span>에스프레소 마키아또</span>
+                                            <span>Espresso Macchiato</span>
+                                            <span>에스프레소에 밀크폼을 더해 부드럽게 즐기는 에스프레소</span>
+                                            <span>제품영양정보 (1회 제공량 / Regular / 354ml 기준)</span>
+                                        </div>  
+                                        <table>
+                                                <tr>
+                                                <th></th>
+                                                <th>칼로리</th>
+                                                <th>당류</th>
+                                                <th>단백질</th>
+                                                <th>포화지방</th>
+                                                <th>나트륨</th>
+                                                <th>카페인</th>
+                                            </tr>
+                                            <tr>
+                                                <td>HOT</td>
+                                                <td>12kcal</td>
+                                                <td>0g</td>
+                                                <td>1g <br>1%</td>
+                                                <td>0g <br>2%</td>
+                                                <td>5mg <br>0%</td>
+                                                <td>76mg</td>
+                                            </tr>
+                                        </table>        
+                                    </li>
+                                </ul> 
+                            </div>
+                        </div>
+                    </div>               
+                </div>
+            </div>
+        <header class="h220">
+             <div class="menu_cover bg">
+              <h1>
+              <a href="index.html">
+              	 <img src="imgs/h_logo.png" alt="header_logo">
+              </a>              
+              </h1>
+               <ul class="menu">
+               	<li><a href="list_about.html">HOLLYS</a></li>
+               	<li><a href="list_product.html">MENU</a></li>
+               	<li><a href="list_store.html">STORE</a></li>
+               	<li><a href="list_community.html">COMUNITY</a></li>
+               </ul>
+            </div>
+        </header>
+        <div class="product_bg">
+                <div class="product_bg_txt">
+                    <span>사랑을 잊고 커피에 빠지다</span>
+                    <span>커피로 행복을 충전해보세요</span>
+                    <span>할리스만의 다양한 커피를 즐기며<br>당신의 삶을 재충전 해보는 시간을 가지세요</span>
+                </div>
+            </div>
+            
+        <div id="product_list">
+           <div class="coffee_align">
+              
+               <h2 class="product_menu"> 
+               
+              <span><a href="list_product.html" class="product_menu_bg">COFFEE</a></span>
+              <span><a href="list_product2.html">TEA &#8226; JUICE</a></span>
+               
+               </h2>
+               <!-- <div class="menu_txt">
+                    <span>
+                        <a href="#">MENU</a>
+                    </span>                	
+                    <span>></span>																
+                    <span>
+                        <a href="">COFFEE</a>
+                    </span>                    
+                </div>-->
+                <div class="list">
+                	<ul>
+                		<li>
+                            <span class="img">
+                                <img src="imgs/risretto.png" alt="">
+                            </span> 
+                            <span class="txt">
+                                <span>리스트레또 딜라이트</span>
+                                <span>Ristretto Delight</span>
+                            </span>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="img">
+                                    <img src="imgs/tiramisu.png" alt="">
+                                </span>
+                                <span class="txt">
+                                    <span>티라미스 크림라떼</span>
+                                    <span>Tiramisu Cream Latte</span>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="img">
+                                    <img src="imgs/milktea.png" alt="">
+                                </span>
+                                <span class="txt">
+                                    <span>밀크티 크림라떼</span>
+                                    <span>Milk Tea Cream Latte</span>
+                                </span>
+                            </a>
+                       </li>
+                        <li>
+                            <a href="#">
+                                <span class="img">
+                                    <img src="imgs/greentea.png" alt="">
+                                </span>
+                                <span class="txt">
+                                    <span>그린티 크림라떼</span>
+                                    <span>Green Tea Cream Latte</span>
+                                </span>
+                          </a>
+                       </li>
+                        <li>
+                            <a href="#">
+                                <span class="img">
+                                    <img src="imgs/sweet.png" alt="">
+                                </span>
+                                <span class="txt">
+                                    <span>스위트 크림라떼</span>
+                                    <span>Sweet Cream Latte</span>
+                                </span>
+                            </a>
+                       </li>
+                        <li>
+                            <a href="#">
+                                <span class="img">
+                                    <img src="imgs/coldbrew.png" alt="">
+                                </span>
+                                <span class="txt">
+                                    <span>콜드브루 라떼</span>
+                                    <span>Cold Brew Latte</span>
+                                </span>
+                            </a>
+                       </li>
+                        <li>
+                            <a href="#">
+                                <span class="img">
+                                    <img src="imgs/coldbrew_2.png" alt="">
+                                </span>
+                                <span class="txt">
+                                    <span>콜드브루</span>
+                                    <span>Cold Brew</span>
+                                </span>
+                            </a>
+                       </li>
+                        <li>
+                            <a href="#">
+                               <span class="img">
+                                    <img src="imgs/apogatto.png" alt="">
+                                </span>
+                                <span class="txt">
+                                    <span>아포가토</span>
+                                    <span>Affogato</span>
+                                </span>
+                            </a>
+                       </li>
+                        <li>
+                            <a href="#">
+                                <span class="img">
+                                    <img src="imgs/belsian.png" alt="">
+                                </span>
+                                <span class="txt">
+                                    <span>리얼 벨지안 카페모카</span>
+                                    <span>Real Belgian Mocha</span>
+                                </span>
+                            </a>
+                       </li>
+                        <li>
+                            <a href="#">
+                                <span class="img">
+                                    <img src="imgs/banlila.png" alt="">
+                                </span>
+                                <span class="txt">
+                                    <span>바닐라 딜라이트</span>
+                                    <span>Vanilla Delight</span>
+                                </span>
+                            </a>
+                       </li>
+                        <li>
+                            <a href="#">
+                                <span class="img">
+                                    <img src="imgs/caramel.png" alt="">
+                                </span>
+                                <span class="txt">
+                                    <span>카라멜 마키아또</span>
+                                    <span>Caramel Macchiato</span>
+                                </span>
+                            </a>
+                       </li>
+                        <li>
+                            <a href="#">
+                                <span class="img">
+                                    <img src="imgs/caffemocha.png" alt="">
+                                </span>
+                                <span class="txt">
+                                    <span>카페모카</span>
+                                    <span>Caffe Mocha</span>
+                                </span>
+                            </a>
+                       </li>
+                        <li>
+                            <a href="#">
+                                <span class="img">
+                                    <img src="imgs/caffucino.png" alt="">
+                                </span>
+                                <span class="txt">
+                                    <span>카푸치노</span>
+                                    <span>Cappuccino</span>
+                                </span>
+                            </a>
+                       </li>
+                        <li>
+                            <a href="#">
+                                <span class="img">
+                                    <img src="imgs/latte.png" alt="">
+                                </span>
+                                <span class="txt">
+                                    <span>카페라떼</span>
+                                    <span>Caffe Latte</span>
+                                </span>
+                            </a>
+                       </li>
+                        <li>
+                            <a href="#">
+                                <span class="img">
+                                    <img src="imgs/americano.png" alt="">
+                                </span>
+                                <span class="txt">
+                                        <span>아메리카노</span>
+                                        <span>Caffe Americano</span>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="img">
+                                    <img src="imgs/e_macciatto.png" alt="">
+                                </span>
+                                <span class="txt">
+                                    <span>에스프레소 마끼아또</span>
+                                    <span>Espresso Macchiato</span>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="fleft">
+                <ul>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">서비스이용약관</a></li>
+                    <li><a href="#">멤버십이용약관</a></li>
+                    <li><a href="#">고객문의 고객설문</a></li>
+                    <li><a href="#">사이트맵 BI 소개</a></li>
+                </ul>
+                <address>법인명: (주) 할리스에프앤비 | OWNER: 김유진 | 가맹문의 1670-4432 | 대표전화 : 02-2188-7100 | 
+                사업자등록번호 211-87-61044 통신판매업: 제 2019-서울종로-0193호 <br>주소 : 서울특별시 종로구 율곡로 88 삼환빌딩 8층 (운니동)<br>COPYRIGHT (C) HOLLYS COFFEECo., Ltd. All Rights Reserved.
+                </address>
+            </div>
+            <div class="snscover">
+                <a href="#">인스타</a>
+                <a href="#">트위터</a>
+                <a href="#">페이스북</a>
+            </div>
+        </footer>
+    </div>
+    <script src="script/script.js"></script>
+    
+
+    <script>
+        
+        //slider_gallery01
+        $(document).ready(function(){
+        var imgsize = 150; // 이미지사이즈
+        var i = 0; // 초기값
+        
+        $("#sliderg_box #bt_prev").click(function(){
+            if(i>-4){  // 이전으로 이미지수
+            i--;            
+            interval = i*imgsize;
+            $(".list").animate({left:interval});
+            }         
+        })
+        
+        $("#sliderg_box #bt_next").click(function(){            
+            if(i<0){ 
+            i++;
+            interval = i*imgsize; 
+            $(".list").animate({left:interval});
+            }          
+        })        
+        
+        })    
+    
+       
+      //slider_gallery02    
+       
+     function change(seg){
+            var slider = $(".sliderf"+seg);
+            $(slider).css({display : 'block'});
+            $(slider).siblings().css({display : 'none'})
+           clearInterval(slider)
+        }
+        
+        //start(); 자동 애니메이
+        var imgs = 2;
+        var now=0;
+        
+        function start(){
+            $(".sliderf").eq(0).siblings().fadeOut();
+            setInterval(slider , 5000);
+        }
+        
+       
+        function slider(){
+            now = (now ==imgs)? 0 : now+1;
+            $(".sliderf").eq(now-1).fadeOut();
+            $(".sliderf").eq(now).fadeIn();
+        }
+        
+        
+        var slideIndex =1;
+        show(slideIndex);
+        
+        function plus(n){
+            show(slideIndex +=n);
+           
+        }
+        
+        function show(n){
+            var slides = document.getElementsByClassName("sf");
+            if(n>slides.length){
+                slideIndex = 1
+            }
+            if(n<1){
+            slideIndex = slides.length
+            }
+            
+            for(i=0; i<slides.length; i++){
+                slides[i].style.display = "none";
+            }
+            
+            slides[slideIndex-1].style.display="block"
+        }
+        
+      
+        
+        
+    </script>
+ 
+</body>
+</html>

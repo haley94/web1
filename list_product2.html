@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hollys</title>
+    <link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+    
+</head>
+<body>
+   
+    <div id="wrap">
+        <div id="product_pop">
+            <div class="pop_box">
+                <button id="bt_close"></button>
+                <div class="pop_list">
+                </div> 
+                    <div class="button_wrap">
+                        <button id="bt_left" onclick="plus(-1)"></button>
+                        <button id="bt_right" onclick="plus(1)"></button>
+                    </div>
+                    <div id="silderf_box"> 
+                        <div class="sliderf_wrap">
+                            <div class="sliderf slider1 sf"> 
+                                <ul>
+                                    <li class="img">
+                                        <img src="imgs/pop_blueberry_j.png" alt="">
+                                    </li>
+                                    <li class="text">              
+                                        <div class="text_wrap">
+                                            <span>더블베리 스파클링</span>
+                                            <span>Double Berry Sparkling</span>
+                                            <span>세계 3대 광천수 초정리 탄산수와 달콤한 블루베리와 <br>새콤한 딸기가 어우러진 스파클링 음료</span>
+                                            <span>제품영양정보 (1회 제공량 / Grande / 472ml 기준)</span>
+                                        </div>  
+                                        <table>
+                                                <tr>
+                                                <th></th>
+                                                <th>칼로리</th>
+                                                <th>당류</th>
+                                                <th>단백질</th>
+                                                <th>포화지방</th>
+                                                <th>나트륨</th>
+                                                <th>카페인</th>
+                                            </tr>
+                                            <tr>
+                                                <td>ICE</td>
+                                                <td>144kcal</td>
+                                                <td>33g</td>
+                                                <td>0g<br>0%</td>
+                                                <td>0g<br>0%</td>
+                                                <td>19mg<br>1%</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </table>        
+                                    </li>
+                                </ul> 
+                            </div>
+                            <div class="sliderf slider2 sf">
+                                <ul>
+                                    <li class="img">
+                                        <img src="imgs/pop_peach_j.png" alt="">
+                                    </li>
+                                    <li class="text">              
+                                        <div class="text_wrap">
+                                            <span>복숭아 자두 스파클링</span>
+                                            <span>Peach Plum Sparkling</span>
+                                            <span>세계 3대 광천수 초정리 탄산수와 복숭아, <br>자두가 상큼달콤하게 어우러진 스파클링 음료</span>				
+                                            <span>제품영양정보 (1회 제공량 / Grande / 472ml 기준)</span>
+                                        </div>  
+                                        <table>
+                                            <tr>
+                                                <th></th>
+                                                <th>칼로리</th>
+                                                <th>당류</th>
+                                                <th>단백질</th>
+                                                <th>포화지방</th>
+                                                <th>나트륨</th>
+                                                <th>카페인</th>
+                                            </tr>
+                                            <tr>
+                                                <td>ICE</td>
+                                                <td>153kcal</td>
+                                                <td>38g</td>
+                                                <td>0g<br>0%</td>
+                                                <td>0g<br>0%</td>
+                                                <td>5mg<br>0%</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </table>
+                                    </li>
+                                </ul>                         
+                            </div>
+                            <div class="sliderf slider3 sf">
+                                <ul>
+                                    <li class="img">
+                                        <img src="imgs/pop_pine_j.png" alt="">
+                                    </li>
+                                    <li class="text">              
+                                        <div class="text_wrap">
+                                            <span>자몽 파인 스파클링</span>
+                                            <span>Grapefruit Pineapple Sparkling</span>
+                                            <span>세계 3대 광천수 초정리 탄산수와 자몽, <br>파인애플이 상큼달콤하게 어우러진 스파클링 음료</span>
+                                            <span>제품영양정보 (1회 제공량 / Grande / 472ml 기준)</span>
+                                        </div>  
+                                        <table>
+                                            <tr>
+                                                <th></th>
+                                                <th>칼로리</th>
+                                                <th>당류</th>
+                                                <th>단백질</th>
+                                                <th>포화지방</th>
+                                                <th>나트륨</th>
+                                                <th>카페인</th>
+                                            </tr>
+                                            <tr>
+                                                <td>ICE</td>
+                                                <td>208kcal</td>
+                                                <td>46g</td>
+                                                <td>0g<br>1%</td>
+                                                <td>0g<br>0%%</td>
+                                                <td>18mg<br>1%</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </table>
+                                    </li>
+                                </ul>                       
+                            </div>
+                            <div class="sliderf slider4 sf">
+                                <ul>
+                                    <li class="img">
+                                        <img src="imgs/pop_grape_j.png" alt="">
+                                    </li>
+                                    <li class="text">              
+                                        <div class="text_wrap">
+                                            <span>청포도 스파클링</span>
+                                            <span>Green Grape Sparkling</span>
+                                            <span>세계 3대 광천수 초정리 탄산수와 탱글탱글한 청포도가 <br>상큼달콤하게 어우러진 스파클링 음료</span>
+                                            <span>제품영양정보 (1회 제공량 / Grande / 472ml 기준)</span>
+                                        </div>  
+                                        <table>
+                                            <tr>
+                                                <th></th>
+                                                <th>칼로리</th>
+                                                <th>당류</th>
+                                                <th>단백질</th>
+                                                <th>포화지방</th>
+                                                <th>나트륨</th>
+                                                <th>카페인</th>
+                                            </tr>
+                                            <tr>
+                                                <td>ICE</td>
+                                                <td>189kcal</td>
+                                                <td>42g</td>
+                                                <td>0g<br>0%</td>
+                                                <td>0g<br>0%</td>
+                                                <td>19mg<br>1%%</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </table>
+                                    </li>
+                                </ul>                       
+                            </div>
+                            <div class="sliderf slider5 sf">
+                                <ul>
+                                    <li class="img">
+                                        <img src="imgs/pop_hibiscus.png" alt="">
+                                    </li>
+                                    <li class="text">              
+                                        <div class="text_wrap">
+                                            <span>히비스커스블렌드</span>
+                                            <span>Hibiscus Blend Tea</span>
+                                            <span>새콤한 히비스커스꽃잎과 사과, 로즈힙, 빌베리를 블렌딩한 차</span>
+                                            <span>제품영양정보 (1회 제공량 / Regular / 354ml 기준)</span>
+                                        </div>  
+                                        <table>
+                                            <tr>
+                                                <th></th>
+                                                <th>칼로리</th>
+                                                <th>당류</th>
+                                                <th>단백질</th>
+                                                <th>포화지방</th>
+                                                <th>나트륨</th>
+                                                <th>카페인</th>
+                                            </tr>
+                                            <tr>
+                                                <td>HOT</td>
+                                                <td>0kcal</td>
+                                                <td>-</td>
+                                                <td>0g<br>0%</td>
+                                                <td>0g<br>0%</td>
+                                                <td>0mg<br>0%</td>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ICE</td>
+                                                <td>0kcal</td>
+                                                <td>-</td>
+                                                <td>0g<br>0%</td>
+                                                <td>0g<br>0%</td>
+                                                <td>0mg<br>0%</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </table>
+                                    </li>
+                                </ul>                       
+                            </div>
+                            <div class="sliderf slider6 sf"> 
+                                <ul>
+                                    <li class="img">
+                                        <img src="imgs/pop_peach_urong.png" alt="">
+                                    </li>
+                                    <li class="text">              
+                                        <div class="text_wrap">
+                                            <span>피치우롱</span>
+                                            <span>Peach Oolong</span>
+                                            <span>부드러운 우롱차에 해바라기꽃잎, 펄슈가, 수레국화, 복숭아향을 블렌딩한 차</span>
+                                            <span>제품영양정보 (1회 제공량 / Regular / 354ml 기준)</span>
+                                        </div>  
+                                        <table>
+                                            <tr>
+                                                <th></th>
+                                                <th>칼로리</th>
+                                                <th>당류</th>
+                                                <th>단백질</th>
+                                                <th>포화지방</th>
+                                                <th>나트륨</th>
+                                                <th>카페인</th>
+                                            </tr>
+                                            <tr>
+                                                <td>HOT</td>
+                                                <td>0kcal</td>
+                                                <td>-</td>
+                                                <td>0g<br>0%</td>
+                                                <td>0g<br>0%</td>
+                                                <td>0mg<br>0%</td>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ICE</td>
+                                                <td>0kcal</td>
+                                                <td>-</td>
+                                                <td>0g<br>0%</td>
+                                                <td>0g<br>0%</td>
+                                                <td>0mg<br>0%</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </table>        
+                                    </li>
+                                </ul> 
+                            </div>
+                            <div class="sliderf slider7 sf"> 
+                                <ul>
+                                    <li class="img">
+                                        <img src="imgs/pop_papermint.png" alt="">
+                                    </li>
+                                    <li class="text">              
+                                        <div class="text_wrap">
+                                            <span>페퍼민트</span>
+                                            <span>Peppermint</span>
+                                            <span>입안 가득 깔끔한 청량감으로 기분까지 상쾌한 허브차</span>
+                                            <span>제품영양정보 (1회 제공량 / Regular / 354ml 기준)</span>
+                                        </div>  
+                                        <table>
+                                                <tr>
+                                                <th></th>
+                                                <th>칼로리</th>
+                                                <th>당류</th>
+                                                <th>단백질</th>
+                                                <th>포화지방</th>
+                                                <th>나트륨</th>
+                                                <th>카페인</th>
+                                            </tr>
+                                            <tr>
+                                                <td>HOT</td>
+                                                <td>2kcal</td>
+                                                <td>-</td>
+                                                <td>0g<br>0%</td>
+                                                <td>0g<br>0%</td>
+                                                <td>0mg<br>0%</td>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ICE</td>
+                                                <td>1kcal</td>
+                                                <td>-</td>
+                                                <td>0g<br>0%</td>
+                                                <td>0g<br>0%</td>
+                                                <td>0mg<br>0%</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </table>        
+                                    </li>
+                                </ul> 
+                            </div>
+                            <div class="sliderf slider8 sf"> 
+                                <ul>
+                                    <li class="img">
+                                        <img src="imgs/pop_camomile.png" alt="">
+                                    </li>
+                                    <li class="text">              
+                                        <div class="text_wrap">
+                                            <span>캐모마일</span>
+                                            <span>Chamomile</span>
+                                            <span>캐모마일 꽃잎을 그대로 말려 노란색의 향긋한 꽃향이 그대로 살아 있는 허브차</span>
+                                            <span>제품영양정보 (1회 제공량 / Regular / 354ml 기준)</span>
+                                        </div>  
+                                        <table>
+                                                <tr>
+                                                <th></th>
+                                                <th>칼로리</th>
+                                                <th>당류</th>
+                                                <th>단백질</th>
+                                                <th>포화지방</th>
+                                                <th>나트륨</th>
+                                                <th>카페인</th>
+                                            </tr>
+                                            <tr>
+                                                <td>HOT</td>
+                                                <td>3kcal</td>
+                                                <td>-</td>
+                                                <td>0g<br>0%</td>
+                                                <td>0g<br>0%</td>
+                                                <td>3mg<br>0%</td>
+                                                <td>2mg</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ICE</td>
+                                                <td>1kcal</td>
+                                                <td>-</td>
+                                                <td>0g<br>0%</td>
+                                                <td>0g<br>0%</td>
+                                                <td>2mg<br>0%</td>
+                                                <td>1mg</td>
+                                            </tr>
+                                        </table>        
+                                    </li>
+                                </ul> 
+                            </div>
+                            <div class="sliderf slider9 sf"> 
+                                <ul>
+                                    <li class="img">
+                                        <img src="imgs/pop_gray.png" alt="">
+                                    </li>
+                                    <li class="text">              
+                                        <div class="text_wrap">
+                                            <span>얼그레이</span>
+                                            <span>Earl Grey</span>
+                                            <span>스리랑카 캔디 지방에서 재배된 홍차에 시칠리아의 감귤, <br>베르가못향이 조화된 감미로운 홍차</span>
+                                            <span>제품영양정보 (1회 제공량 / Regular / 354ml 기준)</span>
+                                        </div>  
+                                        <table>
+                                                <tr>
+                                                <th></th>
+                                                <th>칼로리</th>
+                                                <th>당류</th>
+                                                <th>단백질</th>
+                                                <th>포화지방</th>
+                                                <th>나트륨</th>
+                                                <th>카페인</th>
+                                            </tr>
+                                            <tr>
+                                                <td>HOT</td>
+                                                <td>3kcal</td>
+                                                <td>-</td>
+                                                <td>0g<br>0%</td>
+                                                <td>0.1g<br>0%</td>
+                                                <td>0mg<br>0%</td>
+                                                <td>61mg</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ICE</td>
+                                                <td>2kcal</td>
+                                                <td>-</td>
+                                                <td>0g<br>0%</td>
+                                                <td>0g<br>0%</td>
+                                                <td>2mg<br>0%</td>
+                                                <td>36mg</td>
+                                            </tr>
+                                        </table>        
+                                    </li>
+                                </ul> 
+                            </div>
+                            <div class="sliderf slider10 sf"> 
+                                <ul>
+                                    <li class="img">
+                                        <img src="imgs/pop_greentea_t.png" alt="">
+                                    </li>
+                                    <li class="text">              
+                                        <div class="text_wrap">
+                                            <span>해남 녹차</span>
+                                            <span>Green Tea</span>
+                                            <span>카페라떼에 바닐라빈으로 만든 바닐라 파우더를 더해 <br>더욱 풍부하고 감미로운 할리스만의 바닐라라떼</span>
+                                            <span>제품영양정보 (1회 제공량 / Regular / 354ml 기준)</span>
+                                        </div>  
+                                        <table>
+                                                <tr>
+                                                <th></th>
+                                                <th>칼로리</th>
+                                                <th>당류</th>
+                                                <th>단백질</th>
+                                                <th>포화지방</th>
+                                                <th>나트륨</th>
+                                                <th>카페인</th>
+                                            </tr>
+                                            <tr>
+                                                <td>HOT</td>
+                                                <td>4kcal</td>
+                                                <td>-</td>
+                                                <td>0g<br>0%</td>
+                                                <td>0g<br>1%</td>
+                                                <td>3mg<br>0%</td>
+                                                <td>59mg</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ICE</td>
+                                                <td>2kcal</td>
+                                                <td>-</td>
+                                                <td>0g<br>0%</td>
+                                                <td>0g<br>1%</td>
+                                                <td>2mg<br>0%</td>
+                                                <td>36mg</td>
+                                            </tr>
+                                        </table>        
+                                    </li>
+                                </ul> 
+                            </div>
+                            <div class="sliderf slider11 sf"> 
+                                <ul>
+                                    <li class="img">
+                                        <img src="imgs/pop_hong.png" alt="">
+                                    </li>
+                                    <li class="text">              
+                                        <div class="text_wrap">
+                                            <span>홍자몽차</span>
+                                            <span>Red Grapefruit Tea</span>
+                                            <span>자몽과일 특유의 달콤 쌉싸름한 맛을 즐길 수 있는 과일차</span>
+                                            <span>제품영양정보 (1회 제공량 / Regular / 354ml 기준)</span>
+                                        </div>  
+                                        <table>
+                                                <tr>
+                                                <th></th>
+                                                <th>칼로리</th>
+                                                <th>당류</th>
+                                                <th>단백질</th>
+                                                <th>포화지방</th>
+                                                <th>나트륨</th>
+                                                <th>카페인</th>
+                                            </tr>
+                                            <tr>
+                                                <td>HOT</td>
+                                                <td>113kcal</td>
+                                                <td>17g</td>
+                                                <td>0g <br>1%</td>
+                                                <td>0g <br>0%</td>
+                                                <td>19mg <br>1%</td>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ICE</td>
+                                                <td>113kcal</td>
+                                                <td>17g</td>
+                                                <td>0g <br>1%</td>
+                                                <td>0g <br>0%</td>
+                                                <td>19mg <br>1%</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </table>        
+                                    </li>
+                                </ul> 
+                            </div>
+                            <div class="sliderf slider12 sf"> 
+                                <ul>
+                                    <li class="img">
+                                        <img src="imgs/pop_lemon_t.png" alt="">
+                                    </li>
+                                    <li class="text">              
+                                        <div class="text_wrap">
+                                            <span>스퀴즈레몬차</span>
+                                            <span>Squeeze Lemon Tea</span>
+                                            <span>상큼한 레몬을 스퀴즈방식으로 착즙,상큼한 레몬과즙이 <br>가득한 맛을 즐길 수 있는 과일차</span>
+                                            <span>제품영양정보 (1회 제공량 / Regular / 354ml 기준)</span>
+                                        </div>  
+                                        <table>
+                                                <tr>
+                                                <th></th>
+                                                <th>칼로리</th>
+                                                <th>당류</th>
+                                                <th>단백질</th>
+                                                <th>포화지방</th>
+                                                <th>나트륨</th>
+                                                <th>카페인</th>
+                                            </tr>
+                                            <tr>
+                                                <td>HOT</td>
+                                                <td>195kcal</td>
+                                                <td>35g</td>
+                                                <td>0g <br>1%</td>
+                                                <td>0g <br>0%</td>
+                                                <td>19mg <br>1%</td>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ICE</td>
+                                                <td>195kcal</td>
+                                                <td>35g</td>
+                                                <td>0g <br>1%</td>
+                                                <td>0g <br>0%</td>
+                                                <td>19mg <br>1%</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </table>        
+                                    </li>
+                                </ul> 
+                            </div>
+                            <div class="sliderf slider13 sf"> 
+                                <ul>
+                                    <li class="img">
+                                        <img src="imgs/pop_uja.png" alt="">
+                                    </li>
+                                    <li class="text">              
+                                        <div class="text_wrap">
+                                            <span>고흥 유자차</span>
+                                            <span>Goheung Yuzu Tea</span>
+                                            <span>고흥 유자의 풍미를 살린 할리스 유자차</span>
+                                            <span>제품영양정보 (1회 제공량 / Regular / 354ml 기준)</span>
+                                        </div>  
+                                        <table>
+                                                <tr>
+                                                <th></th>
+                                                <th>칼로리</th>
+                                                <th>당류</th>
+                                                <th>단백질</th>
+                                                <th>포화지방</th>
+                                                <th>나트륨</th>
+                                                <th>카페인</th>
+                                            </tr>
+                                            <tr>
+                                                <td>HOT</td>
+                                                <td>282kcal</td>
+                                                <td>51g</td>
+                                                <td>0g <br>0%</td>
+                                                <td>0g <br>0%</td>
+                                                <td>21mg <br>1%</td>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ICE</td>
+                                                <td>282kcal</td>
+                                                <td>51g</td>
+                                                <td>0g <br>0%</td>
+                                                <td>0g <br>0%</td>
+                                                <td>21mg <br>1%</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </table>        
+                                    </li>
+                                </ul> 
+                            </div>
+                            <div class="sliderf slider14 sf"> 
+                                <ul>
+                                    <li class="img">
+                                        <img src="imgs/pop_mandarine_t.png" alt="">
+                                    </li>
+                                    <li class="text">              
+                                        <div class="text_wrap">
+                                            <span>제주 한라봉 감귤차</span>
+                                            <span>jeju Hanrabong tangerine tea</span>
+                                            <span>향긋한 한라봉과 감귤이 어우러져 상큼하면서도 달콤한 과일차</span>
+                                            <span>제품영양정보 (1회 제공량 / Regular / 354ml 기준)</span>
+                                        </div>  
+                                        <table>
+                                                <tr>
+                                                <th></th>
+                                                <th>칼로리</th>
+                                                <th>당류</th>
+                                                <th>단백질</th>
+                                                <th>포화지방</th>
+                                                <th>나트륨</th>
+                                                <th>카페인</th>
+                                            </tr>
+                                            <tr>
+                                                <td>HOT</td>
+                                                <td>203kcal</td>
+                                                <td>44g</td>
+                                                <td>1g <br>1%</td>
+                                                <td>0g <br>0%</td>
+                                                <td>5mg <br>0%</td>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ICE</td>
+                                                <td>203kcal</td>
+                                                <td>44g</td>
+                                                <td>1g <br>1%</td>
+                                                <td>0g <br>0%</td>
+                                                <td>5mg <br>0%</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </table>        
+                                    </li>
+                                </ul> 
+                            </div>
+                        </div>
+                    </div>               
+                </div>
+            </div>
+            <header class="h220">
+                <div class="menu_cover bg">
+                     <h1>
+                         <a href="index.html">
+                            <img src="imgs/h_logo.png" alt="header_logo">
+                         </a>              
+                     </h1>
+               <ul class="menu">
+                    <li>
+                        <a href="list_about.html">HOLLYS</a>
+                    </li>
+                    <li>
+                        <a href="list_product.html">MENU</a>
+                    </li>
+                    <li>
+                        <a href="list_store.html">STORE</a>
+                    </li>
+                    <li>
+                        <a href="list_community.html">COMUNITY</a>
+                    </li>
+               </ul>
+            </div>
+        </header>
+            <div class="product_bg">
+                <div class="product_bg_txt">
+                    <span>사랑을 잊고 커피에 빠지다</span>
+                    <span>커피로 행복을 충전해보세요</span>
+                    <span>할리스만의 다양한 커피를 즐기며<br>당신의 삶을 재충전 해보는 시간을 가지세요</span>
+                </div>
+            </div>
+            
+            <div id="product_2_list">
+                <div class="coffee_align">
+                    <h2 class="product_menu"> 
+                        <span>
+                            <a href="list_product.html" >COFFEE</a>
+                        </span>
+                        <span>
+                            <a href="list_product2.html" class="product_menu_bg">TEA &#8226; JUICE</a>
+                        </span>
+                    </h2>
+                <div class="list">
+                	<ul>
+                		<li>
+                            <span class="img">
+                                <img src="imgs/blueberry_j.png" alt="">
+                            </span> 
+                            <span class="txt">
+                                <span>더블베리 스파클링</span>
+                                <span>Double Berry Sparkling</span>
+                            </span>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="img">
+                                    <img src="imgs/peach_j.png" alt="">
+                                </span>
+                                <span class="txt">
+                                    <span>복숭아 자두 스파클링</span>
+                                    <span>Peach Plum Sparkling</span>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="img">
+                                    <img src="imgs/pine_j.png" alt="">
+                                </span>
+                                <span class="txt">
+                                    <span>자몽 파인 스파클링 </span>
+                                    <span>Grapefruit Pineapple Sparkling</span>
+                                </span>
+                            </a>
+                       </li>
+                        <li>
+                            <a href="#">
+                                <span class="img">
+                                    <img src="imgs/grape_j.png" alt="">
+                                </span>
+                                <span class="txt">
+                                    <span>청포도 스파클링</span>
+                                    <span>Green Grape Sparkling</span>
+                                </span>
+                          </a>
+                       </li>
+                        <li>
+                            <a href="#">
+                                <span class="img">
+                                    <img src="imgs/hibiscus.png" alt="">
+                                </span>
+                                <span class="txt">
+                                    <span>히비스커스</span>
+                                    <span>Hibiscus Blend Tea</span>
+                                </span>
+                            </a>
+                       </li>
+                        <li>
+                            <a href="#">
+                                <span class="img">
+                                    <img src="imgs/peach_urong.png" alt="">
+                                </span>
+                                <span class="txt">
+                                    <span>피치우롱</span>
+                                    <span>Peach Oolong</span>
+                                </span>
+                            </a>
+                       </li>
+                        <li>
+                            <a href="#">
+                                <span class="img">
+                                    <img src="imgs/papermint_j.png" alt="">
+                                </span>
+                                <span class="txt">
+                                    <span>페퍼민트</span>
+                                    <span>Peppermint</span>
+                                </span>
+                            </a>
+                       </li>
+                        <li>
+                            <a href="#">
+                               <span class="img">
+                                    <img src="imgs/camomile.png" alt="">
+                                </span>
+                                <span class="txt">
+                                    <span>캐모마일</span>
+                                    <span>Chamomile</span>
+                                </span>
+                            </a>
+                       </li>
+                        <li>
+                            <a href="#">
+                                <span class="img">
+                                    <img src="imgs/gray_j.png" alt="">
+                                </span>
+                                <span class="txt">
+                                    <span>얼그레이</span>
+                                    <span>Earl Grey</span>
+                                </span>
+                            </a>
+                       </li>
+                        <li>
+                            <a href="#">
+                                <span class="img">
+                                    <img src="imgs/greentea_t.png" alt="">
+                                </span>
+                                <span class="txt">
+                                    <span>해남 녹차</span>
+                                    <span>Green Tea</span>
+                                </span>
+                            </a>
+                       </li>
+                        <li>
+                            <a href="#">
+                                <span class="img">
+                                    <img src="imgs/hong_t.png" alt="">
+                                </span>
+                                <span class="txt">
+                                    <span>홍자몽차</span>
+                                    <span>Red Grapefruit Tea</span>
+                                </span>
+                            </a>
+                       </li>
+                        <li>
+                            <a href="#">
+                                <span class="img">
+                                    <img src="imgs/lemon_t.png" alt="">
+                                </span>
+                                <span class="txt">
+                                    <span>스퀴즈레몬차</span>
+                                    <span>Squeeze Lemon Tea</span>
+                                </span>
+                            </a>
+                       </li>
+                        <li>
+                            <a href="#">
+                                <span class="img">
+                                    <img src="imgs/uja_t.png" alt="">
+                                </span>
+                                <span class="txt">
+                                    <span>고흥 유자차</span>
+                                    <span>Goheung Yuzu Tea</span>
+                                </span>
+                            </a>
+                       </li>
+                        <li>
+                            <a href="#">
+                                <span class="img">
+                                    <img src="imgs/mandarine_t.png" alt="">
+                                </span>
+                                <span class="txt">
+                                    <span>제주 한라봉 감귤차</span>
+                                    <span>jeju Hanrabong tangerine tea</span>
+                                </span>
+                            </a>
+                       </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="fleft">
+                <ul>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">서비스이용약관</a></li>
+                    <li><a href="#">멤버십이용약관</a></li>
+                    <li><a href="#">고객문의 고객설문</a></li>
+                    <li><a href="#">사이트맵 BI 소개</a></li>
+                </ul>
+                <address>법인명: (주) 할리스에프앤비 | OWNER: 김유진 | 가맹문의 1670-4432 | 대표전화 : 02-2188-7100 | 
+                사업자등록번호 211-87-61044 통신판매업: 제 2019-서울종로-0193호 <br>주소 : 서울특별시 종로구 율곡로 88 삼환빌딩 8층 (운니동)<br>COPYRIGHT (C) HOLLYS COFFEECo., Ltd. All Rights Reserved.
+                </address>
+            </div>
+            <div class="snscover">
+                <a href="#">인스타</a>
+                <a href="#">트위터</a>
+                <a href="#">페이스북</a>
+            </div>
+        </footer>
+    </div>
+    <script src="script/script.js"></script>
+    
+
+    <script>
+        
+        //slider_gallery01
+        $(document).ready(function(){
+        var imgsize = 150; // 이미지사이즈
+        var i = 0; // 초기값
+        
+        $("#sliderg_box #bt_prev").click(function(){
+            if(i>-4){  // 이전으로 이미지수
+            i--;            
+            interval = i*imgsize;
+            $(".list").animate({left:interval});
+            }         
+        })
+        
+        $("#sliderg_box #bt_next").click(function(){            
+            if(i<0){ 
+            i++;
+            interval = i*imgsize; 
+            $(".list").animate({left:interval});
+            }          
+        })        
+        
+        })    
+    
+       
+      //slider_gallery02    
+       
+     function change(seg){
+            var slider = $(".sliderf"+seg);
+            $(slider).css({display : 'block'});
+            $(slider).siblings().css({display : 'none'})
+           clearInterval(slider)
+        }
+        
+        //start(); 자동 애니메이
+        var imgs = 2;
+        var now=0;
+        
+        function start(){
+            $(".sliderf").eq(0).siblings().fadeOut();
+            setInterval(slider , 5000);
+        }
+        
+       
+        function slider(){
+            now = (now ==imgs)? 0 : now+1;
+            $(".sliderf").eq(now-1).fadeOut();
+            $(".sliderf").eq(now).fadeIn();
+        }
+        
+        
+        var slideIndex =1;
+        show(slideIndex);
+        
+        function plus(n){
+            show(slideIndex +=n);
+           
+        }
+        
+        function show(n){
+            var slides = document.getElementsByClassName("sf");
+            if(n>slides.length){
+                slideIndex = 1
+            }
+            if(n<1){
+            slideIndex = slides.length
+            }
+            
+            for(i=0; i<slides.length; i++){
+                slides[i].style.display = "none";
+            }
+            
+            slides[slideIndex-1].style.display="block"
+        }
+        
+      
+        
+        
+    </script>
+ 
+</body>
+</html>
